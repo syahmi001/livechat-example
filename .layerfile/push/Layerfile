@@ -1,7 +1,7 @@
 FROM /Layerfile
 
-WAIT /.layerfiles/base
-WAIT /.layerfiles/cypress
+WAIT /.layerfile/base
+WAIT /.layerfile/cypress
 
 SKIP REMAINING IF GIT_BRANCH!=prod
 
